@@ -1,0 +1,100 @@
+body {
+    font-family: 'Tahoma', 'Garamond', 'Arial', 'Courier New', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    margin-top: -10px;
+    font-weight: 500 bold;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    border: 3px dotted grey;
+    text-align: center;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cornflower {
+    background-color: #4C5270;
+    display: inline-block;
+    width: 23%;
+    color: whitesmoke;
+}
+
+.hot-pink {
+    background-color: #F652A0;
+    display: inline-block;
+    width: 23%;
+    color: black;
+}
+
+.cyan {
+    background-color: #36EEE0;
+    display: inline-block;
+    width: 23%;
+    color: black;
+}
+
+.tiffany-blue {
+    background-color: #BCECE0;
+    display: inline-block;
+    width: 23%;
+    color: black;
+}
+
+.tahoma {
+    font-family: 'Tahoma', sans-serif !important;
+    display: inline-block;
+    padding: 10px;
+}
+
+.garamond {
+    font-family: 'Garamond', serif !important;
+    display: inline-block;
+    padding: 10px;
+}
+
+.arial {
+    font-family: 'Arial', sans-serif !important;
+    display: inline-block;
+    padding: 10px;
+}
+
+.courier-new {
+    font-family: 'Courier New', monospace !important;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li::marker {
+    color: black;
+}
+
+.text-panel {
+    text-align: start;
+}
+
+p {
+    text-align: center;
+}
+
+#main {
+    text-align: start;
+}
